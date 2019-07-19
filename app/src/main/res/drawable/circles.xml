@@ -3,7 +3,9 @@
     android:shape="circle"
 
     <solid android:color="#C70039"/>
-    <corners android:radius="100"
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
 "
 "
 
