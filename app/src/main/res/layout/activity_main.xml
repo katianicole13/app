@@ -4,15 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#ffff00">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginBottom="676dp"
+        android:background="#17A589"
+        android:text="LEG DAY WORKOUT"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <selector xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:andriod="http://schemas.android.com/aapt"
+        android:layout_width="135dp"
+        android:layout_height="86dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="92dp">
+    xmlns:tools="http://schemas.andriod.com/apk/res-auto"
+    xmlns:tools="http://schemas.andriod.com/tools"
+    andriod:layout_width="match_parent"
+    andriod:layout_height="match_parent"
+    tools:context="MainActivity">
+    <ImageView
+        andriod:layout_width="48dp"
+        andriod:layout_height="48dp"
+        andriod:sro="drawable/verfied"
+        andriod:layout_Color"#C70039"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
